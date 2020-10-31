@@ -4,3 +4,9 @@
             padding: 10px;
             margin: 10px;
 }
+.img {width: 50px;
+    color: chocolate; 
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5 5 7px orange;
+
+}
