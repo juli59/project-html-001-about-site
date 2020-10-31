@@ -1,6 +1,6 @@
 .box {display: inline-block;
     width: 20%;
-            border: 15px solid green;
+            border: 15px solid lightgreen;
             padding: 10px;
             margin: 10px;
 }
@@ -11,3 +11,15 @@
 
 }
 p.right {text-align: right}
+
+h1 {color: brown}
+
+footer{background-color: beige}
+
+h4 {font-weight: strong}
+
+@media screen and (max-width: 776px) {
+    div {
+      width: 100%
+    }
+  }
