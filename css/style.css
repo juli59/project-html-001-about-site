@@ -12,7 +12,7 @@
 }
 p.right {text-align: right}
 
-h1 {color: brown}
+h1 {color: brown;}
 
 footer{background-color: beige}
 
@@ -24,4 +24,4 @@ h4 {font-weight: strong}
     }
   }
 
-  h6 {text-align: right; font weight}
+  h3 {text-align: right; color: darkgreen;}
