@@ -1,6 +1,6 @@
 .box {display: inline-block;
     width: 20%;
-            border: 15px solid lightgreen;
+            border: 15px solid rgb(26, 97, 26);
             padding: 10px;
             margin: 10px;
 }
@@ -10,7 +10,7 @@
     box-shadow: 5px 5px 7px orange;
 
 }
-p.right {text-align: right}
+p.right {text-align: right;}
 
 h1 {color: brown;}
 
@@ -18,10 +18,49 @@ footer{background-color: beige}
 
 h4 {font-weight: strong}
 
-@media screen and (max-width: 776px) {
-    div {
-      width: 100%
+@media screen and (max-width: 600px) {
+  .behavior-box{
+    width: 100%;
+  }
+    .gallery-container img{
+      width: 100°%
+      margin-right: 0;
+      margin-left: 0;
     }
+    
   }
 
   h3 {text-align: right; color: darkgreen;}
+
+  body{
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main-nav ul{
+    list-style-type: none;
+  }
+  #main-nav ul li{
+    display:inline-block;
+
+  }
+  section{
+    padding: 1em 2em;
+    /*background-color: rgb(200, 200, 200);*/
+    border: solid 1px white;
+  }
+
+  #index-main > section:first-child{
+    padding: 1em 2em;
+
+  }
+  img-container{
+    width: 38%;
+    margin: 1%;
+  }
+  .gallery-container img{
+    width: 30%;
+    margin: 1%;
+
+  }
